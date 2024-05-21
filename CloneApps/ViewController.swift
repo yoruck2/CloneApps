@@ -9,9 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var profileImageView: UIImageView!
+    
+    @IBOutlet var kakaoStoryButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        profileImageView.layer.cornerRadius = 40
+        
     }
 
 
